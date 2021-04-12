@@ -319,7 +319,7 @@ public class Calculator extends Frame implements KeyListener, ActionListener {
                 System.out.println("Cleared");
                 isInvalid = false;
                 didOperation = false;
- 
+                operationFieldsTotalText = new StringBuilder();
             }
         });
     }
@@ -334,6 +334,7 @@ public class Calculator extends Frame implements KeyListener, ActionListener {
         System.out.println("Cleared");
         isInvalid = false;
         didOperation = false;
+        operationFieldsTotalText = new StringBuilder();
  
     }
  
